@@ -40,6 +40,12 @@ bash
 
 pip install -r requirements.txt
 ## 使用方法
+在src/utils/conkig.py文件中，更改第13行：
+
+prompt = "a spaceship landing on a distant planet, science fiction, high resolution"
+
+更改输入关键词，以生成不同的图像。
+
 运行主程序：
 
 bash
@@ -54,4 +60,5 @@ python main.py
 1. 生成的图像 (outputs/generated_images/)
 2. 评估结果CSV文件 (outputs/evaluation_results/)
 3. 去噪过程可视化 (outputs/training_logs/)
+
 4. 项目说明文档 (outputs/README.md)
